@@ -1,0 +1,59 @@
+{
+	"scene": {
+		"version": 1,
+		"assets": {
+			"renders": [
+				{
+					"name": "Stage2 Vegetation Sector 05",
+					"index": 0,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 7704,
+					"triangles": 6520,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"COLOR": 1
+					},
+					"meshCompression": ""
+				}
+			],
+			"materials": [
+				"Stage2 Vegetation Vertex Colour White"
+			]
+		},
+		"entities": {
+			"0": {
+				"name": "Stage2 Vegetation Sector 05",
+				"parent": -1,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": 0,
+						"materials": [
+							"Stage2 Vegetation Vertex Colour White"
+						]
+					}
+				}
+			}
+		}
+	}
+}

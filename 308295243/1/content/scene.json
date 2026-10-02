@@ -1,0 +1,59 @@
+{
+	"scene": {
+		"version": 1,
+		"assets": {
+			"renders": [
+				{
+					"name": "Mesh",
+					"index": 0,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 30,
+					"triangles": 16,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"TEXCOORD_0": 1
+					},
+					"meshCompression": ""
+				}
+			],
+			"materials": [
+				"Material #352"
+			]
+		},
+		"entities": {
+			"0": {
+				"name": "Arrow",
+				"parent": -1,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": 0,
+						"materials": [
+							"Material #352"
+						]
+					}
+				}
+			}
+		}
+	}
+}

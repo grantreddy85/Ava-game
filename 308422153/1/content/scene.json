@@ -1,0 +1,59 @@
+{
+	"scene": {
+		"version": 1,
+		"assets": {
+			"renders": [
+				{
+					"name": "STAGE2 Central Sandstone Bushland Reserve",
+					"index": 0,
+					"meshes": 1,
+					"skinned": false,
+					"vertices": 9855,
+					"triangles": 18848,
+					"attributes": {
+						"POSITION": 1,
+						"NORMAL": 1,
+						"COLOR": 1
+					},
+					"meshCompression": ""
+				}
+			],
+			"materials": [
+				"Stage2 Landscape Vertex Colour"
+			]
+		},
+		"entities": {
+			"0": {
+				"name": "STAGE2 Central Sandstone Bushland Reserve",
+				"parent": -1,
+				"position": [
+					0,
+					0,
+					0
+				],
+				"rotation": [
+					0,
+					0,
+					0
+				],
+				"scale": [
+					1,
+					1,
+					1
+				],
+				"scaleCompensation": false,
+				"children": [
+
+				],
+				"components": {
+					"render": {
+						"id": 0,
+						"materials": [
+							"Stage2 Landscape Vertex Colour"
+						]
+					}
+				}
+			}
+		}
+	}
+}
